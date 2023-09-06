@@ -29,5 +29,5 @@ else
   exit 1
 fi
 
-# Nettoyer le fichier hash après utilisation
+
 rm -f hash
