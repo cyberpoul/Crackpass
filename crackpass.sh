@@ -1,5 +1,13 @@
 #!/bin/bash
 
+echo "*************************************************"
+echo "*                                               *"
+echo "*                Crak password Script           *"
+echo "*                     by Assa228                *"
+echo "*       https://github.com/Assa228/Crackpass    *"
+echo "*                                               *"
+echo "*************************************************"
+
 if [ $# -ne 1 ]; then
   echo "Utilisation : $0 <fichier.rar, fichier.zip ou fichier.pdf>"
   exit 1
