@@ -3,9 +3,9 @@ Script to crack zip, rar and pdf protected files
 
 # Install :
 
-1. `git clone https://github.com/Assa228/crackpass.git`
+1. `git clone https://github.com/Assa228/Crackpass.git`
 
-2. `cd crackpass`
+2. `cd Crackpass`
    
 3. `chmod +x crackpass.sh`
 
