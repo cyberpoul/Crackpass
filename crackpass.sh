@@ -3,7 +3,7 @@
 echo "*************************************************"
 echo "*                                               *"
 echo "*                Crak password Script           *"
-echo "*                     by Assa228                *"
+echo "*                     by Assa                   *"
 echo "*       https://github.com/Assa228/Crackpass    *"
 echo "*                                               *"
 echo "*************************************************"
