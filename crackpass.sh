@@ -9,7 +9,7 @@ echo "*                                               *"
 echo "*************************************************"
 
 if [ $# -ne 1 ]; then
-  echo "Utilisation : $0 <fichier.rar, fichier.zip ou fichier.pdf>"
+  echo "Usage : $0 <fichier.rar, fichier.zip or fichier.pdf>"
   exit 1
 fi
 
