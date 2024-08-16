@@ -12,4 +12,4 @@ Script to crack zip, rar and pdf protected files
 4. `./crackpass.sh fichier.rar`
 
 # Usage :
-* ./crackpass.sh fichier.rar/.zip/.pdf
+* ./crackpass.sh fichier.rar
