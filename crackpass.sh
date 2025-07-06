@@ -2,14 +2,14 @@
 
 echo "*************************************************"
 echo "*                                               *"
-echo "*                Crak password Script           *"
+echo "*                Crack Password Script          *"
 echo "*                     by Assa                   *"
-echo "*       https://github.com/Assa228/Crackpass    *"
+echo "*       https://github.com/cyperpoul/Crackpass    *"
 echo "*                                               *"
 echo "*************************************************"
 
 if [ $# -ne 1 ]; then
-  echo "Usage : $0 <fichier.rar, fichier.zip , fichier.docx or fichier.pdf>"
+  echo "Usage : $0 <fichier.rar, fichier.zip, fichier.docx, fichier.xlsx ou fichier.pdf>"
   exit 1
 fi
 
@@ -25,13 +25,12 @@ elif [ "$extension" == "zip" ]; then
 elif [ "$extension" == "pdf" ]; then
   pdf2john "$fichier" > hash
   john --wordlist=/usr/share/wordlists/rockyou.txt hash
-elif [ "$extension" == "docx" ]; then
+elif [ "$extension" == "docx" ] || [ "$extension" == "xlsx" ]; then
   office2john "$fichier" > hash
   john --wordlist=/usr/share/wordlists/rockyou.txt hash
 else
   echo "Extension de fichier non supportée : $extension"
   exit 1
 fi
-
 
 rm -f hash
