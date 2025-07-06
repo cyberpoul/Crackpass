@@ -1,6 +1,6 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=cyberpoul.Crackpass)
 # crackpass
-Script to crack zip, rar and pdf protected files
+Script to crack zip, rar, docx, xlsx and pdf protected files
 
 # Install :
 
