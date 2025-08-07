@@ -3,8 +3,8 @@
 echo "*************************************************"
 echo "*                                               *"
 echo "*                Crack Password Script          *"
-echo "*                     by Assa                   *"
-echo "*       https://github.com/cyperpoul/Crackpass    *"
+echo "*                     by opscur                 *"
+echo "*       https://github.com/cyperpoul/Crackpass  *"
 echo "*                                               *"
 echo "*************************************************"
 
